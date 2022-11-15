@@ -1,0 +1,11 @@
+< modelo >
+  < Carrinho />
+</ modelo >
+
+< script >
+exportação  padrão {
+}
+</ script >
+
+< estilo >
+</ estilo >
