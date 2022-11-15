@@ -1,0 +1,28 @@
+< modelo >
+  < div  class = " mx-auto container " >
+    < VueSlickCarousel  v-bind = " configurações " >
+      < img  src = " @/assets/cupcake1.png "  alt = " "  class = " capa h-72 " />
+      < img  src = " @/assets/cupcake2.png "  alt = " "  class = " capa h-72 " />
+      < img  src = " @/assets/cupcake3.png "  alt = " "  class = " capa h-72 " />
+    </ VueSlickCarousel >
+  </ div >
+</ modelo >
+ 
+< script >
+importar  VueSlickCarousel  de  " vue-slick-carousel " ;
+import  " vue-slick-carousel/dist/vue-slick-carousel.css " ;
+// estilo opcional para setas e pontos
+import  " vue-slick-carousel/dist/vue-slick-carousel-theme.css " ;
+exportação  padrão {
+  componentes : { VueSlickCarousel },
+  dados () {
+    retornar {
+      configurações : {
+        reprodução automática :  verdadeiro ,
+        setas :  verdade ,
+        pontos :  verdadeiro ,
+      },
+    };
+  },
+};
+</ script > 
