@@ -1,0 +1,7 @@
+< modelo >
+  < div >
+    < Cabeçalho />
+    < Next />
+    < Rodapé />
+  </ div >
+</ modelo >
